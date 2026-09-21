@@ -308,7 +308,7 @@ export default function App() {
         totalDeductible: 0,
         estimatedTaxSavings: 0,
         partner1Stats: {
-          partner: { id: 'p1', name: 'Socio 1', sharePercent: 50, role: 'socio', color: '#f59e0b', avatarBg: 'bg-amber-500' },
+          partner: { id: 'p1', name: 'Socio 1', sharePercent: 50, role: 'socio', color: '#800c24', avatarBg: 'bg-amber-500' },
           totalPaid: 0,
           totalReceived: 0,
           requiredExpenseShare: 0,
@@ -490,7 +490,7 @@ export default function App() {
         id: `dest-${Date.now()}`,
         destination: destinationName,
         monthlyLimit: 0,
-        color: '#f59e0b',
+        color: '#800c24',
         iconName: 'Tag',
       };
       const updated = [...state.budgets, newBudget];

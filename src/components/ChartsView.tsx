@@ -25,7 +25,7 @@ interface ChartsViewProps {
 }
 
 const COLOR_PALETTE = [
-  '#f59e0b', // amber
+  '#800c24', // vinotinto
   '#10b981', // emerald
   '#3b82f6', // blue
   '#8b5cf6', // violet

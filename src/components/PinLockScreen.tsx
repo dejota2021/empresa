@@ -169,7 +169,7 @@ export function PinLockScreen({ onSuccess, darkMode, setDarkMode }: PinLockScree
                         : error
                           ? { scale: [1, 1.3, 1], backgroundColor: '#f43f5e' }
                           : isActive
-                            ? { scale: [1, 1.2, 1], backgroundColor: '#f59e0b' }
+                            ? { scale: [1, 1.2, 1], backgroundColor: '#800c24' }
                             : { scale: 1, backgroundColor: 'rgba(64, 64, 64, 0.5)' }
                     }
                     className={`w-4.5 h-4.5 rounded-full border transition-all duration-200 ${

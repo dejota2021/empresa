@@ -12,7 +12,7 @@ interface DestinationManagerModalProps {
 }
 
 const PALETTE = [
-  '#f59e0b', // Amber
+  '#800c24', // Vinotinto
   '#8b5cf6', // Violet
   '#3b82f6', // Blue
   '#10b981', // Emerald

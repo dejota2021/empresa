@@ -1,4 +1,19 @@
 @import "tailwindcss";
+
+@theme {
+  --color-amber-50: #fdf2f4;
+  --color-amber-100: #fbe5e9;
+  --color-amber-200: #f7ced6;
+  --color-amber-300: #f0a9b8;
+  --color-amber-400: #d44d70;
+  --color-amber-500: #800c24;
+  --color-amber-600: #6b061b;
+  --color-amber-700: #570314;
+  --color-amber-800: #45010e;
+  --color-amber-900: #330009;
+  --color-amber-950: #1a0004;
+}
+
 body {
   @apply bg-black;
 }

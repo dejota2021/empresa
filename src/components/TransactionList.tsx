@@ -70,7 +70,7 @@ export const TransactionList: React.FC<TransactionListProps> = ({
 
   const getDestinationColor = (destName: string) => {
     const found = budgets.find((b) => b.destination.toLowerCase() === destName.toLowerCase());
-    return found?.color || '#f59e0b';
+    return found?.color || '#800c24';
   };
 
   return (
